@@ -133,5 +133,14 @@
       "category": "in-sale",
       "description": "Deja que la música dance cobre vida con EXTRA BASS™ Anima el ambiente con EXTRA BASS™1. Un radiador pasivo trabaja con el parlante monoaural para potenciar los tonos bajos y mejorar los graves, a pesar del tamaño compacto. ",
       "image": "img-parlante-sony.jpg"
+   },
+   {
+      "id": 17,
+      "name": "Playstation 5",
+      "price": 100,
+      "discount": 50,
+      "description": "hola :D",
+      "category": "visited",
+      "image": "1692756714723_products_.webp"
    }
 ]

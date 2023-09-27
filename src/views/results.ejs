@@ -21,7 +21,7 @@
 				<div class="col-12 col-sm-6 col-lg-3">
 					<% results.forEach(result => { %>
 						<%- include('partials/productCard',{
-							...result,
+							...result.dataValues,
 							toThousand
 						}) %>
 					<% }) %>

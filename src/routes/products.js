@@ -4,7 +4,7 @@ const router = express.Router();
 
 // ************ Controller Require ************
 const productsController = require('../controllers/productsController');
-const upload = require('../../middlewares/upload');
+const upload = require('../middlewares/upload');
 
 /*** GET ALL PRODUCTS ***/ 
 router.get('/', productsController.index); 

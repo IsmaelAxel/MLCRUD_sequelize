@@ -89,7 +89,7 @@ const controller = {
 				price : req.body.price,
 				discount : req.body.discount || 0,
 				description : req.body.description.trim(),
-				category : req.body.categoryId,
+				categoryId : req.body.categoryId,
 				image : req.file ? req.file.filename : product.image
 		},{
 			where:{
